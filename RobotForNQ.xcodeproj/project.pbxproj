@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		516CB548164B25C800022C3F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 516CB547164B25C800022C3F /* main.c */; };
 		516CB54A164B25C800022C3F /* RobotForNQ.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 516CB549164B25C800022C3F /* RobotForNQ.1 */; };
+		516CB551164B25D900022C3F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516CB550164B25D900022C3F /* OpenGL.framework */; };
+		516CB553164B25E400022C3F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516CB552164B25E400022C3F /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,8 @@
 		516CB543164B25C800022C3F /* RobotForNQ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RobotForNQ; sourceTree = BUILT_PRODUCTS_DIR; };
 		516CB547164B25C800022C3F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		516CB549164B25C800022C3F /* RobotForNQ.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RobotForNQ.1; sourceTree = "<group>"; };
+		516CB550164B25D900022C3F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
+		516CB552164B25E400022C3F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../../../../System/Library/Frameworks/GLUT.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516CB551164B25D900022C3F /* OpenGL.framework in Frameworks */,
+				516CB553164B25E400022C3F /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +66,8 @@
 		516CB546164B25C800022C3F /* RobotForNQ */ = {
 			isa = PBXGroup;
 			children = (
+				516CB552164B25E400022C3F /* GLUT.framework */,
+				516CB550164B25D900022C3F /* OpenGL.framework */,
 				516CB547164B25C800022C3F /* main.c */,
 				516CB549164B25C800022C3F /* RobotForNQ.1 */,
 			);
